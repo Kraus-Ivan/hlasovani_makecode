@@ -80,6 +80,8 @@ def on_logo_event_pressed(): # DOTYKOVE TLACITKO
     if stav == 1: # server vynuluje hlasovani
         radio.send_string("reset")
         reset_promennych()
+        basic.show_icon(IconNames.DIAMOND)
+        basic.clear_screen()
 input.on_logo_event(TouchButtonEvent.PRESSED, on_logo_event_pressed)
 
 

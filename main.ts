@@ -126,6 +126,8 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function on_logo_event_pressed() {
         //  server vynuluje hlasovani
         radio.sendString("reset")
         reset_promennych()
+        basic.showIcon(IconNames.Diamond)
+        basic.clearScreen()
     }
     
 })
