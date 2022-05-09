@@ -123,6 +123,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function on_logo_event_pressed() {
     
 })
 basic.forever(function on_forever() {
+    // đdfljasdf
     
     //  na zacatku: volba = 0
     if (input.buttonIsPressed(Button.A)) {

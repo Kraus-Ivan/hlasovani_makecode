@@ -80,7 +80,7 @@ def on_logo_event_pressed():
         reset_promennych()
 input.on_logo_event(TouchButtonEvent.PRESSED, on_logo_event_pressed)
 
-def on_forever():
+def on_forever(): #đdfljasdf
     global volba, hlasovani, stav, rozsah
     # na zacatku: volba = 0
     if input.button_is_pressed(Button.A):
