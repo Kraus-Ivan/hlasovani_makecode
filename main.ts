@@ -160,7 +160,7 @@ basic.forever(function on_forever() {
     
     if (input.buttonIsPressed(Button.B)) {
         // TLACITKO B
-        if (stav == 0) {
+        if (stav == 0 && hlasovani) {
             //  klient snizi svoji volbu o 1
             volba -= 1
             volba = Math.constrain(volba, 0, rozsah - 1)

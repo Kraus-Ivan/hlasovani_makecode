@@ -104,7 +104,7 @@ def on_forever():
             basic.clear_screen()
             
     if input.button_is_pressed(Button.B): #TLACITKO B
-        if stav == 0: # klient snizi svoji volbu o 1
+        if stav == 0 and hlasovani: # klient snizi svoji volbu o 1
             volba -= 1
             volba = Math.constrain(volba, 0, rozsah - 1)
             basic.show_string(String.from_char_code(volba+65), 40)
